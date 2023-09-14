@@ -1,6 +1,14 @@
 body {
-    background: #999;
+    background: #922f2f;
     font-family: arial;
+}
+main {
+    background-color: white;
+    Padding: 3px;
+}
+header {
+    background-color: navy;
+    margin-bottom: 3%;
 }
 
 h1, h2, li{
@@ -15,7 +23,15 @@ p{
     color: white;
     padding: All;
 }
-.secondary{
+.Nav{
+    background:none;
+    color: #777;
+}
+.main{
+    background:none;
+    color: #777;
+}
+.footer{
     background:none;
     color: #777;
 }
