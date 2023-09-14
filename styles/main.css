@@ -1,5 +1,5 @@
 body {
-    background: #490bf3;
+    background: white;
     font-family: arial;
 }
 main {
@@ -7,22 +7,22 @@ main {
     Padding: 3px;
 }
 Header {
-    background-color: navy;
+    /**background-color: navy; **/
     margin-bottom: 3%;
 }
 
 h1, h2, li{
-    color:#555;
+    color: black;
 }
 a {
     color: rgb(0, 34, 128);
 }
 p{
-    background: #white;
+    background: white;
     color: black;
     padding: All;
 }
-.Nav{
+/**.Nav{
     background:blue;
 }
 .main{
@@ -30,4 +30,4 @@ p{
 }
 .footer{
     background:blue;
-}
+} **/
