@@ -1,11 +1,14 @@
 body {
-    /**background: white; **/
+    /** background: white; **/
     font-family: arial;
+    margin-top: 2%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    margin-left: 15%;
 }
 main {
-    /**background-color: white; **/
-    Padding: 3px;
-    margin: 2%, 5%, 2%, 5%;
+    /** background-color: white; **/
+    Padding: 5%;
 }
 Header {
     margin-bottom: 3%;
@@ -14,8 +17,9 @@ Header {
 h1, h2, li{
     color: navy;
 }
-a {
-    color: rgb(0, 34, 128);
+a{
+    color: white;
+    font-weight: bold;
 }
 a:hover{
     text-decoration: none;
@@ -27,14 +31,24 @@ p{
 }
 .Nav{
     background:navy;
-    margin: 18px;
-    padding-top: 100px;
+    padding-top: 3%;
+    padding-bottom:1%;
+    Padding-right: 5%;
+    Padding-left: 5%;
+    color: white;
+    align-content: center;
 }
-.main a{
+.main{
     background:White;
+    Padding-right: 5%;
+    Padding-left: 5%;
 }
-.footer a{
+.Footer{
     background: navy;
     color:white;
-    padding-bottom:100px;
+    padding-top:1%;
+    padding-bottom:3%;
+    Padding-right: 5%;
+    Padding-left: 5%;
+    align-content: center;
 }
