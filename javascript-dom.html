@@ -3,28 +3,74 @@
 <head>
 <link href="styles/main.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title> Anthony's Blog - JavaScript Basics </title>
+<title> Anthony's Blog - JavaScript and the Document Object Model</title>
 </head>
 <body>
 <div id="Header">
 <div class="Nav">
-    <a href="https://anthonymartin36.github.io/blog/index.html"> Home</a> | <a href="https://anthonymartin36.github.io/blog/te-houtaewa-template.html"> Te-houtaewa</a>  | <a href="https://anthonymartin36.github.io/blog/identity-values.html" style="text-decoration: none"> Identity-Values</a>  | <a href="https://anthonymartin36.github.io/blog/javascript-basics.html"> Javascript Basics</a> 
+    <a href="https://anthonymartin36.github.io/blog/index.html"> Home</a> | <a href="https://anthonymartin36.github.io/blog/te-houtaewa-template.html"> Te-houtaewa</a>  | <a href="https://anthonymartin36.github.io/blog/identity-values.html"> Identity-Values</a>  | <a href="https://anthonymartin36.github.io/blog/javascript-dom.html" style="text-decoration: none"> Javascript Dom</a> 
 </div></div>
 <div class="main">
     <h1>
-    JavaScript Document Object Model
+    JavaScript and its relationship to HTML and CSS 
     </h1>
-
-    <h2>
-    When have you had to make an ethical decision?
-    </h2>
     <p>
-    While working at the Bank, ensuring the security of customer Bank accounts is the most important part of the job. So taking the customer through the process of identification is paramount. Customers of course will be calling the Bank and be adamant about being assisted regardless of the Bank's processes. Unfortunately, if a customer is unwilling or being too belligerent a customer will be advised to go to a bank branch with a valid photo before we can assist them. A very large amount of the Bank's Operating resources are being directed into digital resources and away from the local Bank branch. So then, situations will occur where retired individuals or individuals who are in mental institutions, prisons and retirement homes. There is also the concern of when individuals call pretending to be the customer, which is more common than thought, as not everyone speaks English as a first language.
-    This is when one must have patience, communicate clearly and concisely, yet be respectful of the individual's personal circumstances, for example limits on  language, speech capability and comprehension. Looking into making a final decision on whether this customer is legitimate and giving the individual the benefit of the doubt. 
+    <image style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 200px; float:right;" src="images/JSHTMLandCSS.png" label="javaScript, HTML and CSS" />
+    Javascript is software or a Computer Language that is used by websites/webpages to add functionality. What I mean by this is a web pages that is view through Web Browser like Google Chrome or MS Edge, is mostly static, beyond maybe a video or animation. This content is typically written in HTML, which is represented for the most part in tags and they Styles can be added using CSS, to make the page more visibily presentable. When Javascript in included more functionalyty can be included like linking to other content, like Files or a Database to add additional content to a web page.  
     </p>
     
+    <h2>
+    Control flow and Loops
+    </h2>
+    <p>
+    
+    
+        Control flows and loops are used to repeat certain tasks, based on conditions. Conditions typically allow the loop to continue or stop pending on the logic applied. A loop will continue to flow until the assigned condition is fulfilled. 
+        In Javascript as well as other programming languages there are a number of different Conditional Statements. For example: <br />
+        if statements - if a statement is true then execute else end loop<p> 
+        if ... else ... statements - if a statement is true continue else, fulfill other request <br />
+        while loops - while condition is true continue statement<br />
+        for loops - iterate through condition until limit is reached and exit <br />
+        switch Statements - iterations based on the case described<br />
+        </p>
+        As you can see there are a number of different types of loops and a number of reasons as to why they should be used. In fact there are a number of different subsets of circumstances in how each may be used. It really depends on the problem you are trying to solve and why you would apply a specific Control Flow. 
+        </p>
+    
+    <h2>
+        Document Object Model (DOM)
+        </h2>
+        <p>
+        <image style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 300px; float:right;" src="images/JavascriptandDOM.png" label="Document Object Model" />
+        The DOM is a programming interface for web documents. In effect it allows software languages to interact with the tags of HTML documents (and other web documents). Allowing the languages to changes the Tags representing elements within these documents. Over the course of the development of the Web and its standards this allowing Javascript new functionality within web pages. This provided JavaScript with new functionality such as:<br />
+        <ul>
+        <li>add, change, and remove any of the HTML elements and attributes</li>
+        <li>change any of the CSS styles</li>
+        <li>react to all the existing events</li>
+        <li>create new events</li>
+        </ul>
+        A Document Object Model (DOM) tree is a hierarchical representation within an HTML document. It consists of a root node or tags, which is within the document itself. The DOM interface provides a set of abilities and properties to make change to the DOM, so for example: getElementById, createElement, appendChild, and innerHTML in the Javascript code.</p>
+
+    <h2>
+    Arrays and Objects
+    </h2>
+    <p>
+        <image style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 250px; float:right;" src="images/javascript-array-blocks.png" label="Array" />
+        In Javascript, to be able to execute logic there needs to be a way to create, store and use values. These values can be stored individually as a string of text or a number. Arrays would be a list of values either created by code or copied in from a different source. For example an array would consist of a list of values. 
+        Let value = [1, 2, 3, 4, 5, 6]. 
+    </p><p>
+        If we create the array above, we can set values to it, call those individual values, iterate through these values using a loop or establish the length of the loop using the array properties. This is a 2 dimensional array, you can also create 3 dimensional arrays, but we will stop here, for the purpose of this example. 
+    </p><p>
+        <image style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 200px; float:right;" src="images/Object.jpg" label="Objects" />
+        In Javascript, as in some other programming languages, values can also be stored in an Object. An Object can consist of a number of values stored together in an object or group of objects. Unlike an array that would only store one item within each placeholder. An Object would be able to store a number of named items per placeholder. A series of objects would be differentiated by its Key and within this Object Key, individual property values can be called and displayed or amended. 
+    </p>
+    <h2>
+        Functions
+        </h2>
+        <p>
+            To be able to execute the code in a logical way, some of the aforementioned logic needs to be split up into blocks of code, specifically functions. This is so the logic can be carried out in one or many instances when required. A Function typically will be named functionCall(item), and in some instances have a value or series of values passed to it. It will then complete a series of actions, pending on what it is prescribed to do and then return a value, in some instances no value is returned.
+        </p>
 </div>
 <div class="Footer">
-    <a href="https://anthonymartin36.github.io/blog/index.html"> Home</a> | <a href="https://anthonymartin36.github.io/blog/te-houtaewa-template.html"> Te-houtaewa</a>  | <a href="https://anthonymartin36.github.io/blog/identity-values.html" style="text-decoration: none"> Identity-Values</a>  | <a href="https://anthonymartin36.github.io/blog/javascript-basics.html"> Javascript Basics</a> 
+    <a href="https://anthonymartin36.github.io/blog/index.html"> Home</a> | <a href="https://anthonymartin36.github.io/blog/te-houtaewa-template.html"> Te-houtaewa</a>  | <a href="https://anthonymartin36.github.io/blog/identity-values.html"> Identity-Values</a>  | <a href="https://anthonymartin36.github.io/blog/javascript-basics.html" style="text-decoration: none"> Javascript Basics</a> 
 </div>
 </body>   
