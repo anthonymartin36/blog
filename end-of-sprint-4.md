@@ -4,3 +4,6 @@ Listening and Looping
 Blog - neuroplasticity.html / te-whare-tapa-wha.html
 Code Readability and indentation including 9 different parts
 Javascript Methods
+Javascript Kata
+Javascript Modules
+problem-solving.html

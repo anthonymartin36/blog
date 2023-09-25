@@ -43,3 +43,16 @@ TDD is an approach were you don not necessarly test all the code within a softwa
 
 Once the code works, we go back and refactor it to make it more concise and readable.
 
+Pseudocode
+Pseudocode is not actual code but rather comments that tell you how the code will eventually look. It is informal, plainly written steps that form your code's rough draft or outline.
+
+Javascript Kata
+Variables and Objects - this was a straighforward exercise
+Manipulating Objects - this took a little more time to establish out the values to compare - a simple issue I was having was setting array values to a Object key value   
+FizzBuzz and Super FizzBuzz - This took some more time to set up and get correct answers. Once the FizzBuzz was established, super FizBuzz came along rather quickly 
+Gradebook - This was more complicated for me to set up and setting array values to a Object key value 
+Builtin Methods - was able to set up all bar the last test. Unable to remove whits spaces from the string of Test, but buzz in all forms was removed. 
+
+Javascript Modules
+Import and export code between files. 
+
